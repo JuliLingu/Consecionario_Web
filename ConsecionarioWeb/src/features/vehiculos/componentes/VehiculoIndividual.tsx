@@ -1,4 +1,4 @@
-import Vehiculo from "../modelos/vehiculos.mode";
+import Vehiculo from "../modelos/vehiculos.model";
 import styles from "./VehiculoIndividual.module.css";
 
 export default function VehiculoIndividual(props: VehiculoIndividualProps) {
