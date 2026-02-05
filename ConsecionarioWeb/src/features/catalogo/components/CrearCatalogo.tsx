@@ -1,5 +1,5 @@
 export default function CrearCatalogo(){
     return (
-        <h3>Crear vehiculo</h3>
+        <h3>Crear Catalogo</h3>
     );
 }

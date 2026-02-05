@@ -1,5 +1,5 @@
 export default function IndiceCatalogo (){
     return(
-        <h3>Marcas</h3>
+        <h3>Catalogo</h3>
     );
 }
