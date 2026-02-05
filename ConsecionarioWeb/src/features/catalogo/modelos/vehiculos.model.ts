@@ -2,9 +2,11 @@ export default interface Vehiculo {
     id: number;
     marca: string;
     modelo: string;
+    version: string;
+    kilometros: number;
     year: number;
     color: string;
-    tipo: 'sedan' | 'suv' | 'camioneta' | 'motocicleta' | 'otro';
+    transmision : string;
     precio: number;
     disponible: boolean;    
     imagenUrl: string;

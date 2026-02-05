@@ -11,7 +11,7 @@ export default function Menu() {
                         <NavLink className="nav-link" to={"/catalogo"}>Catalogo</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to={"/detalle"}>Detalle</NavLink>
+                        <NavLink className="nav-link" to={"/contacto"}>Contacto</NavLink>
                     </li>
                 </ul>
             </div>
