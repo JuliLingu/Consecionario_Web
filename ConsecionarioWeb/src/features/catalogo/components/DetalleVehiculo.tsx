@@ -34,13 +34,13 @@ export default function DetalleVehiculo() {
           <div className="col-md-6">
             <div className="card-body">
               <h2 className="card-title">
-                {vehiculo.marca} {vehiculo.modelo}
+                {vehiculo.marca} {vehiculo.modelo} {vehiculo.version}
               </h2>
-              <h4 className="text-muted">{vehiculo.year}</h4>
+              <h4 className="text-muted">Año {vehiculo.year} - {vehiculo.kilometros.toLocaleString("es-AR")} km</h4>
               <hr />
               <p className="card-text">
                 <strong>Precio:</strong>{" "}
-                <span className="fs-4 text-success">${vehiculo.precio}</span>
+                <span className="fs-4 text-success">${vehiculo.precio.toLocaleString("es-AR")}</span>
               </p>
               <p className="card-text">
                 <strong>Transmisión:</strong> {vehiculo.transmision.toUpperCase()}

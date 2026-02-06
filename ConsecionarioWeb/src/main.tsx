@@ -1,11 +1,22 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import '../node_modules/bootstrap/dist/css/bootstrap.css' //Se debe sumar xq sino no importas los diseños de bootstrap
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router"; // Nota: Si usas react-router-dom v6, importa desde 'react-router-dom'
+import App from "./App.tsx";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App /> 
-  </StrictMode>,
-)
+// Estilos
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css"; // Tus estilos globales si tienes
+
+// Seguridad
+import { AuthProvider } from "./context/AuthContext";
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    {/* El AuthProvider debe envolver al Router */}
+    <AuthProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </AuthProvider>
+  </React.StrictMode>,
+);

@@ -3,7 +3,6 @@ import Vehiculo from "../modelos/vehiculos.model";
 import styles from "./VehiculoIndividual.module.css";
 
 export default function VehiculoIndividual(props: VehiculoIndividualProps) {
-  // Usamos el ID para construir la ruta
   const urlDetalle = `/vehiculos/${props.vehiculo.id}`;
 
   return (

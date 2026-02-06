@@ -1,23 +1,15 @@
-import { BrowserRouter } from "react-router";
 import Menu from "./components/Menu";
 import AppRoutes from "./AppRoutes";
 
 function App() {
-
-
-
   return (
     <>
-      <BrowserRouter>
-        <Menu />
-        <div className="container">
-          <AppRoutes />
-        </div>
-      </BrowserRouter>
+      <Menu />
+      <div className="container">
+        <AppRoutes />
+      </div>
     </>
   );
 }
-
-
 
 export default App;
