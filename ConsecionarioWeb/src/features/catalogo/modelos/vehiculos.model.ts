@@ -4,10 +4,11 @@ export default interface Vehiculo {
     modelo: string;
     version: string;
     kilometros: number;
+    condicion: string,
     year: number;
     color: string;
     transmision : string;
     precio: number;
     disponible: boolean;    
-    imagenUrl: string;
+    imagenesUrl: string[];
 }
