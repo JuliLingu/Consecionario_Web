@@ -5,7 +5,8 @@ import App from "./App.tsx";
 
 // Estilos
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css"; // Tus estilos globales si tienes
+import "bootstrap/dist/js/bootstrap.min.js";
+import "./index.css";
 
 // Seguridad
 import { AuthProvider } from "./context/AuthContext";

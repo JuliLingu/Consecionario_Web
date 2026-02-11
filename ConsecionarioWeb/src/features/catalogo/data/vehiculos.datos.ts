@@ -13,7 +13,7 @@ export const vehiculosMock: Vehiculo[] = [
         precio: 25000,
         kilometros: 15000,
         disponible: true,
-        imagenesUrl: ["https://acroadtrip.blob.core.windows.net/publicaciones-imagenes/Small/volkswagen/golf/ar/RT_PU_71db44ecb1a743a9be6c6a95c38c7e18.webp"],
+        imagenesUrl: ["https://th.bing.com/th/id/OIP.AEhQ-Cy8TNG8Ko62CQ4tbgHaDt?w=326&h=174&c=7&r=0&o=7&pid=1.7&rm=3"],
     },
     {
         id: 2,
